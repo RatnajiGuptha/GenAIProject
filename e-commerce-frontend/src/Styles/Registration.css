@@ -1,0 +1,76 @@
+body {
+  background-color: #f3f3f3;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.registration-form {
+  max-width: 400px;
+  height: 550px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px; /* Reduce margin */
+  text-align: start;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px; /* Reduce margin */
+}
+
+.error-message {
+  color: #ff0000;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.primary {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.primary:hover {
+  background-color: #45a049;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+button.secondary {
+  background-color: #3498db;
+  color: white;
+}
+
+button.secondary:hover {
+  background-color: #2980b9;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
